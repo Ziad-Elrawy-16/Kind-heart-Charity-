@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.myBg {
+  background-color: #5bc1ac;
+}
+.myFs {
+  font-size: 12px;
+}
+.myWidthLogo {
+  width: 80px;
+  height: auto;
+}
+
+.myFsLogo {
+  font-size: 10px;
+}
+.myColor {
+  color: #5bc1ac;
+}
+.myHeightSlide {
+  height: 690px;
+  object-fit: cover;
+  object-position: 60% 10%;
+}
+.myPic {
+  object-fit: cover;
+  object-position: 60% 10%;
+}
+.myDesign {
+  position: absolute;
+  background: white;
+  clip-path: polygon(100% 100%, 100% 150px, 0 100%);
+  color: darkgray;
+  top: 1px;
+  bottom: -1px;
+  right: 0;
+  left: auto;
+  text-align: right;
+  min-width: 680px;
+  min-height: 680px;
+  padding: 100px 100px 50px 100px;
+}
+.myHoverSec2 {
+  transition: 0.3s;
+}
+.myHoverSec2 a img {
+  transition: 0.3s;
+}
+.myHoverSec2 a p {
+  transition: 0.3s;
+}
+.myHoverSec2:hover a img {
+  transform: scale(0.7);
+}
+
+.myHoverSec2:hover a p {
+  transform: scale(1.2);
+}
+
+.myHoverSec2:hover {
+  transform: scale(0.9);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #535e5c;
+}
+.myHoverSec6 {
+  transition: 0.3s;
+}
+.myHoverSec6:hover {
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #535e5c;
+}
+.myDesignSq {
+  position: relative;
+  overflow: hidden;
+}
+.myDesignSq1::before {
+  content: "";
+  background-color: #5bc1ac;
+  border-radius: 50%;
+  position: absolute;
+  top: -120px;
+  left: -30px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.myDesignSq2::after {
+  content: "";
+  border: 20px solid #597081;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -107px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+}
+.myDesignSq3::after {
+  content: "";
+  background-color: #5bc1ac;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -190px;
+  right: -80px;
+  width: 350px;
+  height: 350px;
+}
+.myDesignSq4::before {
+  content: "";
+  background-color: #5bc1ac;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: -30px;
+  margin: auto;
+  width: 240px;
+  height: 240px;
+}
+.myDesignSq5::after {
+  content: "";
+  background-color: #597081;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -190px;
+  right: -80px;
+  width: 350px;
+  height: 350px;
+}
+.myWidthPic {
+  width: 150px;
+  height: auto;
+}
+
+.hoverIcon {
+  transition: 0.3s;
+}
+.hoverIcon:hover {
+  transform: scale(1.1);
+  color: #5bc1ac !important;
+}
+/* hover icon in footer  */
+.hover-icon-f {
+  transition: 0.3s;
+}
+.hover-icon-t {
+  transition: 0.3s;
+}
+.hover-icon-w {
+  transition: 0.3s;
+}
+.hover-icon-y {
+  transition: 0.3s;
+}
+.hover-icon-l {
+  transition: 0.3s;
+}
+.hover-icon-f:hover {
+  transform: scale(1.1);
+  color: blue;
+}
+.hover-icon-l:hover {
+  transform: scale(1.1);
+  color: rgb(43, 134, 226);
+}
+.hover-icon-t:hover {
+  transform: scale(1.1);
+  color: darkturquoise;
+}
+.hover-icon-w:hover {
+  transform: scale(1.1);
+  color: lawngreen;
+}
+.hover-icon-y:hover {
+  transform: scale(1.1);
+  color: red;
+}
+.myStyleNav.active {
+  color: #5bc1ac !important;
+}
+
+.title .image {
+  background-image: url(../pic/close-up-volunteer-oganizing-stuff-donation.jpg);
+  height: 365px;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 40%);
+}
+.myBgPic {
+  background-image: url(../pic/different-people-doing-volunteer-work.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 769px) {
+  .myDesignSq3::after {
+    bottom: -263px;
+  }
+}
+@media (max-width: 426px) {
+  .myDesignSq3::after {
+    bottom: -277px;
+  }
+  .myDesignSq4::before {
+    top: -163px;
+  }
+  .myDesignSq5::after {
+    bottom: -290px;
+  }
+  .myHeightSlide {
+    object-position: 20% 10%;
+  }
+}
